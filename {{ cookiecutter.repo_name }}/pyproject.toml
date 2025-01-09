@@ -26,7 +26,7 @@ pylint = ">=2.14.0"
 pytest = ">=7.4.2"
 pytest-icdiff = ">=0.8"
 pytest-cov = ">=4.1.0"
-python-semantic-release = ">=8.1.1"
+python-semantic-release = ">=9.0.0"
 setuptools = ">=65.6.3"
 toml = ">=0.10.2"
 black = ">=24.10"
@@ -43,7 +43,7 @@ commit_version_number = true
 hvcs = "github"
 upload_to_pypi = false
 version_source = "tag"
-version_variable = [
+version_variables = [
   "{{ cookiecutter.repo_name }}/__init__.py:__version__"
 ]
 version_toml = ['pyproject.toml:tool.poetry.version']
